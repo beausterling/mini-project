@@ -41,3 +41,30 @@ h1 {
 img {
   width: 100%;
 }
+
+/* NAV */
+
+nav {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 24px 12px;
+  background-color: white;
+}
+
+.logo {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.logo__img {
+  width: 40px;
+  margin-top: 8px;
+}
+
+.logo__text {
+  font-size: 20px;
+  font-weight: 200;
+}
